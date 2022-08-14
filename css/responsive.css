@@ -1,0 +1,168 @@
+/* Start For 992px to 1080px width device */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .area{
+        width: 970px;
+    }
+    .header .logo {
+        margin-right: 20px;
+    }
+    .header .menu {
+        width: 576px;
+    }
+    .service .single-service {
+        width: 310px;
+    }
+.service .single-service:nth-child(3),  .service .single-service:nth-child(6){
+    margin-right: 0;
+}
+.service .single-service:nth-child(4), .services-page .single-service:nth-child(8){
+    margin-right: 20px;
+}
+
+    .about-left {
+        width: 593px;   
+    }
+    .about-right {
+        width: 187px;
+    }
+    .gallery .single-gallery{
+        width: 310px;
+    }
+    .gallery .single-gallery:nth-child(3),.gallery .single-gallery:nth-child(6){
+        margin-right: 0px;
+    }
+    .gallery .single-gallery:nth-child(4), .gallery .single-gallery:nth-child(8){
+        margin-right: 20px;
+    }
+    .contact .contact-form {
+        float: left;
+        width: 709px;
+        margin-right: 20px;
+    }
+    
+    }
+    /* End For 992px to 1080px width device */
+
+    /* Start For 768px to 991px width device */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .area{
+        width: 750px;
+    }
+    .header .logo {
+        width: 180px;
+    }
+    .header .menu {
+        width: 500px;
+    }
+    .services .title h4, .gallerys .title h4 {
+        font-size: 32px;
+        margin: 24px 0;
+    }
+    .service .single-service {
+        width: 236px;
+    }
+    .service .single-service:nth-child(3),.service .single-service:nth-child(6){
+        margin-right: 0;
+    }
+    .service .single-service:nth-child(4),.service .single-service:nth-child(8){
+        margin-right: 20px;
+    }
+    .service .single-service h4 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .about-left {
+        width: 539px;
+    
+    }
+    .about-right {
+        width: 191px;
+    }
+    .about-left h4, .about-right h4 {
+        font-size: 24px;
+        margin-bottom: 9px;
+    }
+
+    .gallery .single-gallery{
+        width: 235px;
+    }
+    .gallery .single-gallery:nth-child(3),.gallery .single-gallery:nth-child(6){
+        margin-right: 0;
+    }
+    .gallery .single-gallery:nth-child(4),.gallery .single-gallery:nth-child(8){
+        margin-right: 20px;
+    }
+    .contact .contact-form {
+        float: left;
+        width: 489px;
+        margin-right: 20px;
+    }
+
+}
+/* END For 768px to 991px width device */
+
+/* Start For 767px*/
+@media only screen and (max-width:767px){
+  .area{
+      width: 320px;
+  }
+  .header .menu {
+      float: left;
+	width: 100%;
+  }
+    .header .menu ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #333;
+        padding: 10px 10px;
+        display: block;
+        transition: .3s;
+    }
+    .services .title h4, .gallerys .title h4 {	
+        font-size: 29px;
+        margin: 22px 0;
+    }
+
+    .service .single-service h4 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .service .single-service {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .about-left {
+        width: 100%;
+    } 
+    .about-right {
+
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact .contact-form {
+        width: 100%;
+    }
+    .contact .contact-address {
+        width: 100%;
+        margin-top: 14px;
+    }
+    .gallery .single-gallery {
+        width: 100%;
+    }
+
+}
+/* END For 767px*/
+
+/* Start For 480px to 767px*/
+@media only screen and (min-width:480px) and (max-width: 767px){
+    .area{
+        width: 450px;
+    }
+}
+
+/* End For 480px to 767px*/
